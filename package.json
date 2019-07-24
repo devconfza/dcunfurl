@@ -5,15 +5,18 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "format": "prettier --write '**/*.{js,css,json,md}'"
+        "format": "prettier --write '**/*.{js,json,md,ts}'"
     },
+    "sideEffects": false,
     "author": "robert@sadev.co.za",
     "license": "Apache-2.0",
     "devDependencies": {
-        "prettier": "^1.17.0"
-    },
-    "dependencies": {
-        "node-html-parser": "^1.1.16",
-        "serverless-cloudflare-workers": "^1.2.0"
+        "@udacity/types-service-worker-mock": "^1.0.1",
+        "prettier": "^1.17.0",
+        "ts-loader": "^6.0.4",
+        "types-cloudflare-worker": "^1.0.1",
+        "typescript": "^3.5.3",
+        "@types/node": "^12.6.8",
+        "node-html-parser": "^1.1.16"
     }
 }
