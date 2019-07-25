@@ -3,6 +3,14 @@ export const constants = {
     fallbackIcon: '/public/images/hl3confirmed.jpg',
     overrideIcons: [
         {
+            domain: 'www.facebook.com',
+            icon: '/public/images/media/facebook.png',
+        },
+        {
+            domain: 'www.youtube.com',
+            icon: '/public/images/media/youtube.png',
+        },
+        {
             domain: 'www.bizcommunity.com',
             icon: 'https://biz-file.com/res/img/logo.gif',
         },
