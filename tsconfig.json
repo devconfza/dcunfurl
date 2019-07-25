@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "module": "commonjs",
+        "target": "ESNext",
+        "allowJs": true,
+        "lib": ["esnext", "webworker"]
+    }
+}
