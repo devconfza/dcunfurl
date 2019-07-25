@@ -1,4 +1,5 @@
 export const constants = {
+    corsDomains: ['localhost', 'devconf.co.za', 'www.devconf.co.za'],
     fallbackIcon: '/public/images/hl3confirmed.jpg',
     overrideIcons: [
         {
